@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="board">
+            <div id="home">
+                <h2>HOME</h2>
+                <div id="home-banner"></div>
+                <div id="home-screen">0</div>
+                <div id="the-buttons">
+                    <button id="home-add" onclick="homePlusOne()" style="font-family: cursed;">+1</button>
+                    <button id="home-subtract" onclick="homeSubtractOne()" style="font-family: cursed;">-1</button>
+                    <button id="home-reset" onclick="homeReset()" style="font-family: cursed;">reset</button>
+                </div>
+            </div>
+            
+            <div id="away">
+                <h2>AWAY</h2>
+                <div id="away-banner"></div>
+                <div id="away-screen">0</div>
+                <div id="the-buttons">
+                    <button id="away-add" onclick="awayPlusOne()" style="font-family: cursed;">+1</button>
+                    <button id="away-subtract" onclick="awaySubtractOne()" style="font-family: cursed;">-1</button>
+                    <button id="away-reset" onclick="awayReset()" style="font-family: cursed;">reset</button>
+                </div>
+            </div>
+            <script src="index.js"></script>
+        </div>
+
+    </body>
+</html>
